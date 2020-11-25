@@ -13,6 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    background-color: white;
     padding: 10px;
 }
 .header_right{
@@ -63,4 +64,22 @@ ul li a:hover{
 }
 .login:hover{
   background-color: #E0E0E1;
+}
+
+/* div da collegare a js */
+#abbonamenti-dropdown,#chi_siamo-dropdown,#aiuto-dropdown{
+  position: absolute;
+  top: 30px;
+  left: -120px;
+  display: none;
+  flex-direction: column;
+  justify-content: start;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px,
+    rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+  position: absolute;
+  border-radius: 5px;
+  padding-right: 30px;
+}
+#abbonamenti, #chi_siamo, #aiuto{
+  position: relative;
 }
