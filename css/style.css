@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+}
+
+header{
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  color: grey;
+  font-family: Roboto, -apple-system, "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+  
+}
