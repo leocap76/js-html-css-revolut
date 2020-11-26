@@ -67,16 +67,42 @@ ul li a:hover{
 }
 
 /* div da collegare a js */
-#abbonamenti-dropdown,#chi_siamo-dropdown,#aiuto-dropdown{
+#abbonamenti-dropdown{
+  width: 230px;
   position: absolute;
   top: 30px;
-  left: -120px;
-  display: none;
+  left: -160px;
+
   flex-direction: column;
   justify-content: start;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px,
     rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+  border-radius: 5px;
+  padding-right: 40px;
+}
+#chi_siamo-dropdown{
+  width: 225px;
   position: absolute;
+  top: 30px;
+  left: -130px;
+
+  flex-direction: column;
+  justify-content: start;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px,
+    rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+  border-radius: 5px;
+  padding-right: 30px;
+}
+#aiuto-dropdown{
+  width: 230px;
+  position: absolute;
+  top: 30px;
+  left: -100px;
+
+  flex-direction: column;
+  justify-content: start;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px,
+    rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
   border-radius: 5px;
   padding-right: 30px;
 }
